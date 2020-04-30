@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer {
+  height: 100px;
+  background-color: $dark-blue;
+}
+.footer__body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  max-width: $max-width;
+  margin: auto;
+}

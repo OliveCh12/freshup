@@ -1,0 +1,37 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.header {
+  background-color: $dark-blue;
+  height: 100px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: $max-width;
+  margin: auto;
+  height: 100%;
+}
+.header__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  //   height: 100%;
+  width: 120px;
+  font-size: 12pt;
+  text-decoration: none;
+  color: $primary;
+  text-transform: uppercase;
+}
+.header__link:hover {
+  transform: translateX(1.4);
+  text-decoration: none;
+}
+.header__link--active {
+  background-color: $primary;
+  color: #fff;
+}
